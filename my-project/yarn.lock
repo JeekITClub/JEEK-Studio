@@ -2994,6 +2994,10 @@ fsevents@^1.2.2:
     nan "^2.9.2"
     node-pre-gyp "^0.10.0"
 
+fullpage.js@^3.0.2:
+  version "3.0.2"
+  resolved "http://registry.npm.taobao.org/fullpage.js/download/fullpage.js-3.0.2.tgz#4a38e8ac5be5ebf2d9631dc462468255adaa110e"
+
 function-bind@^1.0.2, function-bind@^1.1.0, function-bind@^1.1.1:
   version "1.1.1"
   resolved "http://registry.npm.taobao.org/function-bind/download/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
@@ -6488,6 +6492,12 @@ uuid@^3.0.1, uuid@^3.3.2:
   version "3.3.2"
   resolved "http://registry.npm.taobao.org/uuid/download/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
+v-page@^1.6.0:
+  version "1.6.0"
+  resolved "http://registry.npm.taobao.org/v-page/download/v-page-1.6.0.tgz#351f56ac25dde2a5b85ca9c8184073d809f5a73c"
+  dependencies:
+    vue "^2.5.11"
+
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
   resolved "http://registry.npm.taobao.org/validate-npm-package-license/download/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"
@@ -6528,6 +6538,16 @@ vue-eslint-parser@^2.0.3:
     esquery "^1.0.0"
     lodash "^4.17.4"
 
+vue-fullpage.js@^0.0.5:
+  version "0.0.5"
+  resolved "http://registry.npm.taobao.org/vue-fullpage.js/download/vue-fullpage.js-0.0.5.tgz#376cff02fbf702e5c2619fcc7016430fb34315e4"
+  dependencies:
+    fullpage.js "^3.0.2"
+
+vue-fullpage@^2.0.5:
+  version "2.0.5"
+  resolved "http://registry.npm.taobao.org/vue-fullpage/download/vue-fullpage-2.0.5.tgz#fc1a75f032cd6e8a8e18686640506a84d9249184"
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.0"
   resolved "http://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.0.tgz#97976142405d13d8efae154749e88c4e358cf926"
@@ -6560,7 +6580,7 @@ vue-template-es2015-compiler@^1.6.0:
   version "1.6.0"
   resolved "http://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
 
-vue@^2.5.17:
+vue@^2.5.11, vue@^2.5.17:
   version "2.5.17"
   resolved "http://registry.npm.taobao.org/vue/download/vue-2.5.17.tgz#0f8789ad718be68ca1872629832ed533589c6ada"
 
@@ -6620,7 +6640,7 @@ webpack-dev-middleware@3.2.0:
     url-join "^4.0.0"
     webpack-log "^2.0.0"
 
-webpack-dev-server@^3.1.4:
+webpack-dev-server@^3.1.4, webpack-dev-server@^3.1.6:
   version "3.1.6"
   resolved "http://registry.npm.taobao.org/webpack-dev-server/download/webpack-dev-server-3.1.6.tgz#8617503768b1131fd539cf43c3e2e63bd34c1521"
   dependencies:

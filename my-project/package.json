@@ -8,13 +8,17 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.5.17"
+    "v-page": "^1.6.0",
+    "vue": "^2.5.17",
+    "vue-fullpage": "^2.0.5",
+    "vue-fullpage.js": "^0.0.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.5.17",
+    "webpack-dev-server": "^3.1.6"
   },
   "eslintConfig": {
     "root": true,
