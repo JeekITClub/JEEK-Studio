@@ -1,40 +1,27 @@
 <template>
   <div id="app">
-    <fullpage :options="options">
+    <full-page :options="options" ref="fullpage" id="fullpage">
       <div class="section">
-        
+        23232
       </div>
       <div class="section">
+        232131
       </div>
-    </fullpage>
+    </full-page>
   </div>
 </template>
 
 <script>
-import Fullpage from '';
-
 export default {
   name: 'app',
-  components: {
-    FullPage
-  },
   data () {
     return {
-      options: {
-        paddingTop: '30px'
-      }
+      options: {}
     }
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
