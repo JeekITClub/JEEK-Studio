@@ -1,17 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <fullpage :options="options">
+      <div class="section">
+        
+      </div>
+      <div class="section">
+      </div>
+    </fullpage>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Fullpage from '';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    FullPage
+  },
+  data () {
+    return {
+      options: {
+        paddingTop: '30px'
+      }
+    }
   }
 }
 </script>
