@@ -1,4 +1,6 @@
-# my-project
+# JEEK-Studio
+
+Using [fullpage-vue](https://github.com/river-lee/vue-fullpage)
 
 ## Project setup
 ```
