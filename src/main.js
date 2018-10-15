@@ -5,7 +5,9 @@ import store from './store'
 import 'animate.css'
 import 'fullpage-vue/src/fullpage.css'
 import VueFullpage from 'fullpage-vue'
+import BootstrapVue from 'bootstrap-vue'
 Vue.use(VueFullpage);
+Vue.use(BootstrapVue);
 
 Vue.config.productionTip = false
 
