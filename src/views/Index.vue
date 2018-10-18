@@ -4,7 +4,7 @@
             <div class="fullpage-wp" v-fullpage="opts" ref="main">
                 <div class="page-1 page">
                     <b-button-group class="guide">
-                            <b-button  class="menuList1">首页</b-button>
+                            <b-button class="menuList1" >首页</b-button>
                             <b-button @click="moveNext" class="menuList1" >主要业务介绍</b-button>
                             <b-button @click="moveNext2" class="menuList1">主要作品</b-button>
                             <b-button @click="moveNext3" class="menuList1">人员介绍</b-button>
@@ -14,24 +14,37 @@
                         <h1 class="part-1 main-title" v-animate="{value: 'bounceInLeft'}">Jeek Studio</h1>
                     </div>
                 </div>
-                <div class="page-2 page">
-                        <b-button-group class="guide">
-                            <b-button @click="movePrev" class="menuList2">首页</b-button>
-                            <b-button class="menuList2" >主要业务介绍</b-button>
-                            <b-button @click="moveNext" class="menuList2">主要作品</b-button>
-                            <b-button @click="moveNext2" class="menuList2">人员介绍</b-button>
-                            <b-button @click="moveNext3" class="menuList2">主要联系方式</b-button>
-                        </b-button-group>
-                        <v-member1  class="part-2" v-animate="{value: 'bounceInLeft', delay: 1200}"></v-member1>
-                        <v-member2  class="part-2" v-animate="{value: 'zoomInDown', delay: 0}"></v-member2>
-                        <v-member3  class="part-2" v-animate="{value: 'bounceInRight', delay: 600}"></v-member3>
-
+                <div class="page-4 page">
+                     <b-button-group class="guide">
+                            <b-button @click="movePrev" class="menuList4">首页</b-button>
+                            <b-button  class="menuList4" disabled>主要业务介绍</b-button>
+                            <b-button @click="moveNext" class="menuList4">主要作品</b-button>
+                            <b-button @click="moveNext2" class="menuList4">人员介绍</b-button>
+                            <b-button @click="moveNext3" class="menuList4">主要联系方式</b-button>
+                     </b-button-group>
+                    <h1  class="title" v-animate="{value: 'rollIn', delay: 0}">网站开发</h1>
+                    <v-web  class="part-4" v-animate="{value: 'bounceInLeft', delay: 600}"></v-web>
+                    <v-web2 class="part-4" v-animate="{value: 'bounceInRight', delay: 1200}"></v-web2>
+                    <v-web3 class="part-4" v-animate="{value: 'zoomInDown', delay: 1600}"></v-web3>
+                </div>
+                 <div class="page-4 page">
+                     <b-button-group class="guide">
+                            <b-button @click="movePrev" class="menuList4">首页</b-button>
+                            <b-button  class="menuList4" disabled>主要业务介绍</b-button>
+                            <b-button @click="moveNext" class="menuList4">主要作品</b-button>
+                            <b-button @click="moveNext2" class="menuList4">人员介绍</b-button>
+                            <b-button @click="moveNext3" class="menuList4">主要联系方式</b-button>
+                     </b-button-group>
+                    <h1 class="title" v-animate="{value: 'bounceInLeft', delay: 0}">微信开发</h1>
+                    <p class="part-4" v-animate="{value: 'bounceInRight', delay: 600}">fullpage-vue</p>
+                    <p class="part-4" v-animate="{value: 'zoomInDown', delay: 1200}">fullpage-vue</p>
+                      <p class="part-4" v-animate="{value: 'zoomInDown', delay: 1200}">fullpage-vue</p>
                 </div>
                 <div class="page-3 page">
                     <b-button-group class="guide">
                             <b-button @click="movePrev2" class="menuList3">首页</b-button>
                             <b-button @click="movePrev" class="menuList3" >主要业务介绍</b-button>
-                            <b-button  class="menuList3">主要作品</b-button>
+                            <b-button  class="menuList3" disabled>主要作品</b-button>
                             <b-button @click="moveNext" class="menuList3">人员介绍</b-button>
                             <b-button @click="moveNext2" class="menuList3">主要联系方式</b-button>
                     </b-button-group>
@@ -39,17 +52,18 @@
                     <p class="part-3" v-animate="{value: 'bounceInRight', delay: 600}">fullpage-vue</p>
                     <p class="part-3" v-animate="{value: 'zoomInDown', delay: 1200}">fullpage-vue</p>
                 </div>
-                 <div class="page-4 page">
-                     <b-button-group class="guide">
-                            <b-button @click="movePrev3" class="menuList4">首页</b-button>
-                            <b-button @click="movePrev2" class="menuList4" >主要业务介绍</b-button>
-                            <b-button @click="movePrev" class="menuList4">主要作品</b-button>
-                            <b-button  class="menuList4">人员介绍</b-button>
-                            <b-button @click="moveNext" class="menuList4">主要联系方式</b-button>
-                     </b-button-group>
-                    <p class="part-4" v-animate="{value: 'bounceInLeft', delay: 0}">fullpage-vue</p>
-                    <p class="part-4" v-animate="{value: 'bounceInRight', delay: 600}">fullpage-vue</p>
-                    <p class="part-4" v-animate="{value: 'zoomInDown', delay: 1200}">fullpage-vue</p>
+                <div class="page-2 page">
+                        <b-button-group class="guide">
+                            <b-button @click="movePrev3" class="menuList2">首页</b-button>
+                            <b-button @click="movePrev2" class="menuList2" >主要业务介绍</b-button>
+                            <b-button @click="movePrev" class="menuList2">主要作品</b-button>
+                            <b-button class="menuList2" disabled>人员介绍</b-button>
+                            <b-button @click="moveNext" class="menuList2">主要联系方式</b-button>
+                        </b-button-group>
+                        <v-member1  class="part-2" v-animate="{value: 'bounceInLeft', delay: 1200}"></v-member1>
+                        <v-member2  class="part-2" v-animate="{value: 'zoomInDown', delay: 0}"></v-member2>
+                        <v-member3  class="part-2" v-animate="{value: 'bounceInRight', delay: 600}"></v-member3>
+
                 </div>
                  <div class="page-5 page">
                      <b-button-group class="guide">
@@ -57,7 +71,7 @@
                             <b-button @click="movePrev3" class="menuList5" >主要业务介绍</b-button>
                             <b-button @click="movePrev2" class="menuList5">主要作品</b-button>
                             <b-button @click="movePrev" class="menuList5">人员介绍</b-button>
-                            <b-button class="menuList5">主要联系方式</b-button>
+                            <b-button class="menuList5" disabled>主要联系方式</b-button>
                      </b-button-group>
                     <p class="part-5" v-animate="{value: 'bounceInLeft', delay: 0}">fullpage-vue</p>
                     <p class="part-5" v-animate="{value: 'bounceInRight', delay: 600}">fullpage-vue</p>
@@ -69,9 +83,12 @@
 </template>
 
 <script>
-    import WTO from "./WTO"
-    import NI from "./NI"
-    import pdd from "./PDD"
+    import WTO from "../components/Members/WTO"
+    import NI from "../components/Members/NI"
+    import pdd from "../components/Members/PDD"
+    import website from "../components/Website/Website"
+    import website2 from "../components/Website/Website2"
+    import website3 from "../components/Website/Website3"
     export default {
         name: 'Index',
         data() {
@@ -130,7 +147,10 @@
         components: {
             'v-member1': WTO,
             'v-member2': NI,
-            'v-member3': pdd
+            'v-member3': pdd,
+            'v-web': website,
+            'v-web2': website2,
+            'v-web3': website3
         }
     }
 </script>
@@ -162,26 +182,31 @@
         background: #2c3e50;
         margin: 60px 0 0 20px;
         font-weight: bolder;
+        border:none;
     }
     .menuList2 {
         background: #ffcc51;
         margin: 0 0 0 20px;
         font-weight: bolder;
+        border:none;
     }
     .menuList3 {
         background: blueviolet;
         margin: 60px 0 0 20px;
         font-weight: bolder;
+        border:none;
     }
     .menuList4 {
         background: darkred;
-        margin: 60px 0 0 20px;
+        margin: 20px 0 0 20px;
         font-weight: bolder;
+        border:none;
     }
     .menuList5 {
         background: aqua;
         margin: 60px 0 0 20px;
         font-weight: bolder;
+        border:none;
     }
 
     .page-content {
@@ -208,13 +233,31 @@
     .part-2{
         background-color: black;
         border-style: outset;
-
     }
     .page-3{
         background-color:blueviolet;
+
     }
     .page-4{
         background-color: darkred;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-grow: 1;
+    }
+     .page-4b {
+         background-color: darkred;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-items: center;
+         flex-grow: 1;
+     }
+    .part-4{
+
     }
     .page-5{
         background-color: aqua;
@@ -223,5 +266,9 @@
 
     .main-title {
         font-size: 6em;
+    }
+    .title{
+        width: 100%;
+        margin: 0 0 0 0;
     }
 </style>
