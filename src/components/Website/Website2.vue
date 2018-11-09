@@ -4,14 +4,14 @@
           <b-card overlay
                   :img-src="url"
                   img-alt="Card Image"
-                  text-variant="white"
+                  text-variant="dark"
                   title="开发网页">
             <p class="card-text">
-              认真负责的成员将会按照你们的要求编写网站
+              context contextcontext contextcontext context
                 <br>
-             第二行
+             context contextcontext context
                 <br>
-                第三行
+                context contextcontext context
             </p>
           </b-card>
         </div>
@@ -22,7 +22,7 @@
     export default {
         data() {
             return{
-                url:require("../../assets/website.jpg")
+                url:require("../../assets/backboard.png")
             }
         }
     }

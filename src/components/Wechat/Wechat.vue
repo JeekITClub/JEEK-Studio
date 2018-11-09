@@ -4,12 +4,12 @@
           <b-card overlay
                   :img-src="url"
                   img-alt="Card Image"
-                  text-variant="white"
+                  text-variant="dark"
                   title="项目需求">
             <p class="card-text">
-              在项目编写开始之前我们会详细的
-                <br>记录客户对于网站功能要求以及偏
-                <br>爱的网站风格
+              context context context context
+                <br>context contextcontext context
+                <br>context contextcontext context
             </p>
           </b-card>
         </div>
@@ -20,7 +20,7 @@
     export default {
         data() {
             return{
-                url:require("../../assets/contact.jpg")
+                url:require("../../assets/backboard.png")
             }
         }
     }
