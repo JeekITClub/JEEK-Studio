@@ -54,7 +54,7 @@
     export default {
         data(){
             return {
-                url:require("../assets/contact.jpg")
+                url:require("../../assets/website.jpg")
             }
         }
     }

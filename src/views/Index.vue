@@ -48,8 +48,20 @@
                             <b-button @click="moveNext" class="menuList3">人员介绍</b-button>
                             <b-button @click="moveNext2" class="menuList3">主要联系方式</b-button>
                     </b-button-group>
-                     <h1 class="title" v-animate="{value: 'bounceInLeft', delay: 0}">主要作品</h1>
-                    <v-pro class="part-3" v-animate="{value: 'pulse', delay: 600}"></v-pro>
+                     <h1 class="title" v-animate="{value: 'bounceInLeft', delay: 600}">主要作品</h1>
+                    <v-pro class="part-3" v-animate="{value: 'pulse', delay: 1200}"></v-pro>
+                </div>
+                <div class="page-3 page">
+                    <b-button-group class="guide">
+                            <b-button @click="movePrev2" class="menuList3">首页</b-button>
+                            <b-button @click="movePrev" class="menuList3" >主要业务介绍</b-button>
+                            <b-button  class="menuList3" >主要作品</b-button>
+                            <b-button @click="moveNext" class="menuList3">人员介绍</b-button>
+                            <b-button @click="moveNext2" class="menuList3">主要联系方式</b-button>
+                    </b-button-group>
+                     <h1 class="title" v-animate="{value: 'bounceInLeft', delay: 600}">主要作品</h1>
+                    <v-pro2 class="part-32" v-animate="{value: 'pulse', delay: 1200}"></v-pro2>
+                    <p  color="white" v-animate="{value: 'zoomInDown', delay: 1600}">context context context</p>
                 </div>
                 <div class="page-2 page">
                         <b-button-group class="guide">
@@ -72,9 +84,8 @@
                             <b-button @click="movePrev" class="menuList5">人员介绍</b-button>
                             <b-button class="menuList5" >主要联系方式</b-button>
                      </b-button-group>
-                    <p class="part-5" v-animate="{value: 'bounceInLeft', delay: 0}">fullpage-vue</p>
-                    <p class="part-5" v-animate="{value: 'bounceInRight', delay: 600}">fullpage-vue</p>
-                    <p class="part-5" v-animate="{value: 'zoomInDown', delay: 1200}">fullpage-vue</p>
+                     <h2>If you have questions, are looking for assistance or<br> just want to share your feedback with us, we're listening.</h2>
+                    <v-con class="part-5" v-animate="{value: 'bounceInLeft', delay: 400}">fullpage-vue</v-con>
                 </div>
             </div>
         </div>
@@ -91,7 +102,9 @@
     import wechat from "../components/Wechat/Wechat"
     import wechat2 from "../components/Wechat/Wechat2"
     import wechat3 from "../components/Wechat/Wechat3"
-    import pro from "../components/Product"
+    import pro from "../components/Product/Product"
+    import pro2 from "../components/Product/Product2"
+    import con from "../components/Contact"
     export default {
         name: 'Index',
         data() {
@@ -153,7 +166,9 @@
             'v-wechat': wechat,
             'v-wechat2': wechat2,
             'v-wechat3': wechat3,
-            'v-pro': pro
+            'v-pro': pro,
+            'v-pro2': pro2,
+            'v-con': con
         }
     }
 </script>
@@ -206,7 +221,7 @@
         border:none;
     }
     .menuList5 {
-        background: aqua;
+        background: #0e863e;
         margin: 5% 0 10px 20px;
         font-weight: bolder;
         border:none;
@@ -262,8 +277,14 @@
     .part-4{
         height:85%;
     }
+    .part-32 {
+        display:flex;
+        justify-content: center;
+        height: 50%;
+        width: 100%;
+    }
     .page-5{
-        background-color: aqua;
+        background-color: #0e863e;
     }
 
 
