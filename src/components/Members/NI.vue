@@ -1,7 +1,7 @@
 <template>
     <div class="member">
      <div>
-        <b-card title="WTO"
+        <b-card title="Cheney Ni"
                 sub-title="台长"
           :img-src="url"
           img-alt="Image"
@@ -13,7 +13,7 @@
         <p class="card-text" >
         Please write down self-introduction here and something like that balabalabalabalabalabal.bababalla lansdn lasjdkn alsda nsdaknsdkan s
         </p>
-        <b-button href="https://github.com/alienmao" >Github</b-button>
+        <b-button href="https://github.com/nichujie" >Github</b-button>
         </b-card>
      </div>
     </div>
