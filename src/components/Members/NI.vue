@@ -1,22 +1,11 @@
 <template>
-    <div class="member">
-     <div>
-        <b-card title="Cheney Ni"
-                sub-title="台长"
-          :img-src="url"
-          img-alt="Image"
-          img-top
-          bg-variant="dark"
-          tag="article"
-          style="max-width: 20rem;"
-          class="mb-2">
-        <p class="card-text" >
-        Please write down self-introduction here and something like that balabalabalabalabalabal.bababalla lansdn lasjdkn alsda nsdaknsdkan s
+    <b-card title="Cheney Ni" sub-title="鸡总" :img-src="url" img-alt="Image" img-top tag="article" style="max-width: 20rem;"
+    class="mb-2">
+        <p class="card-text">
+            东方霍格沃滋密西根学院在读
         </p>
-        <b-button href="https://github.com/nichujie" >Github</b-button>
-        </b-card>
-     </div>
-    </div>
+        <b-button href="https://github.com/nichujie">Github</b-button>
+    </b-card>
 </template>
 <script>
 export default {
@@ -28,7 +17,4 @@ export default {
 }
 </script>
 <style scoped>
-    .mb-2{
-
-    }
 </style>

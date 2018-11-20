@@ -1,5 +1,6 @@
 <template>
-    <div class="fullpage-container">
+    <page3></page3>
+    <!-- <div class="fullpage-container">
         <div class="fullpage-wp" v-fullpage="opts" ref="example">
             <div class="page-1 page">
                 <p class="part-1" v-animate="{value: 'bounceInLeft'}">
@@ -13,30 +14,28 @@
             </div>
             <div class="page-3 page">
                 <p class="part-3" v-animate="{value: 'bounceInLeft', delay: 0}">
-                    fullpage-vue3
-                </p>
-                <p class="part-3" v-animate="{value: 'bounceInRight', delay: 600}">
-                    fullpage-vue4
-                </p>
-                <p class="part-3" v-animate="{value: 'zoomInDown', delay: 1200}">
-                    fullpage-vue5
+                    <page3></page3>
                 </p>
             </div>
         </div>
         <button @click="moveNext">next</button>
-    </div>
+    </div> -->
 </template>
 
 <script>
+    import page3 from './pages/page3'
     export default {
+        components: {
+            page3
+        },
         data() {
             return {
                 opts: {
                     start: 0,
                     dir: 'v',
-                    duration: 500,
-                    beforeChange: function (prev, next) {},
-                    afterChange: function (prev, next) {}
+                    duration: 500
+                    // beforeChange: function (prev, next) {},
+                    // afterChange: function (prev, next) {}
                 }
             }
         },
