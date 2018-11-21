@@ -1,17 +1,17 @@
 <template>
     <div>
         <nav-bar></nav-bar>
-        <fullpages></fullpages>
+        <landing></landing>
     </div>
 </template>
 
 <script>
     import NavBar from '../components/navbar'
-    import Fullpages from './Fullpages'
+    import Landing from './landing'
     export default {
         components: {
             NavBar,
-            Fullpages
+            Landing
         }
     }
 </script>
